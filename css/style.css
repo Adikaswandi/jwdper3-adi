@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: grey;
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.container-profil, .container-content {
+    background-color: white;
+    text-align: justify;
+    padding: 20px;
+}
+
+.container-profil .pprofil {
+    float: left;
+}
+
+.container-profil article p {
+    float: right;
+    width: 800px;
+    height: auto;
+
+}
+
+.fix {
+    clear: both;
+}
+
